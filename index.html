@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Miere Naturală | Apidulce</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #fff9f0;
+      color: #333;
+    }
+    header {
+      background-color: #f2b705;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .logo {
+      font-size: 1.8rem;
+      font-weight: bold;
+      color: #fff;
+    }
+    nav a {
+      color: white;
+      margin-left: 20px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      text-align: center;
+      padding: 80px 20px;
+      background: url('https://images.unsplash.com/photo-1517686469429-8bdb88b9d9c5') no-repeat center;
+      background-size: cover;
+      color: white;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      margin-bottom: 20px;
+      text-shadow: 2px 2px 4px #000;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      margin-bottom: 30px;
+      text-shadow: 1px 1px 2px #000;
+    }
+    .btn {
+      background-color: #f2b705;
+      color: white;
+      padding: 15px 30px;
+      font-size: 1rem;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: background-color 0.3s;
+    }
+    .btn:hover {
+      background-color: #d89e00;
+    }
+    .product {
+      text-align: center;
+      padding: 60px 20px;
+      background: #fffaf0;
+    }
+    .product img {
+      width: 250px;
+      border-radius: 10px;
+    }
+    .product h2 {
+      font-size: 2rem;
+      margin-top: 20px;
+    }
+    .product p {
+      font-size: 1rem;
+      margin: 10px 0;
+    }
+    footer {
+      text-align: center;
+      padding: 30px;
+      background-color: #f2b705;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">Apidulce</div>
+  <nav>
+    <a href="#produs">Produs</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>Miere 100% Naturală din România</h1>
+  <p>Cumpără direct de la apicultor. Livrare rapidă, gust autentic.</p>
+  <a href="#produs" class="btn">Vezi produsul</a>
+</section>
+
+<section class="product" id="produs">
+  <img src="https://images.unsplash.com/photo-1635274474114-fda2055f50b1" alt="Borcan de miere">
+  <h2>Borcan Miere 500g</h2>
+  <p>25 RON</p>
+  <a href="https://buy.stripe.com/test_EXEMPLU" class="btn">Cumpără acum</a>
+</section>
+
+<footer id="contact">
+  <p>© 2025 Apidulce. Toate drepturile rezervate.</p>
+</footer>
+
+</body>
+</html>
+
+<section class="product" id="programare">
+  <h2>Programează un Call</h2>
+  <p>Vrei să discutăm despre miere, comenzi speciale sau colaborări?</p>
+  <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" style="max-width: 500px; margin: auto;">
+    <input type="text" name="nume" placeholder="Numele tău" required style="width:100%; padding:10px; margin-bottom:10px;" />
+    <input type="email" name="email" placeholder="Email" required style="width:100%; padding:10px; margin-bottom:10px;" />
+    <textarea name="mesaj" placeholder="Scrie un mesaj..." rows="5" required style="width:100%; padding:10px; margin-bottom:10px;"></textarea>
+    <button type="submit" class="btn">Trimite</button>
+  </form>
+</section>
